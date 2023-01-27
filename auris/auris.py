@@ -23,8 +23,8 @@ class Auris:
     def __init__(self, song_path):
         self.song = AudioSegment.from_mp3(song_path)
 
-        # convert to mono, we'll play this on only the left or only the right channels
-        # later
+        # convert to mono, we'll play this on only the left or only the right
+        # channels later
         mono_song = self.song. set_channels(1)
         silent = AudioSegment.silent(
             duration=self.song.duration_seconds * 1000,
