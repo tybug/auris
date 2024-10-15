@@ -1,3 +1,3 @@
 # Auris
 
-A way to check if my ears are clogged or not. I occasionally get paranoid that I have some wax stuck deep in my ear that impacts my hearing, and this is a relatively robust and statistically sound way to check if it's real or I'm just imagining it.
+I'm somewhat neurotic about my hearing, I listen to a lot of music, and I have a high enough quality setup to notice subtle differences. This is an attempt to statistically determine the ideal eq curve for my left vs right ear.
